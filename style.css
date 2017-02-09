@@ -1,0 +1,40 @@
+body{
+
+    background: #fff;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0;
+    background: -webkit-linear-gradient(#8a0045, #999);
+
+}
+.lessH1{
+    font-family: '8BIT', Times, serif;
+    text-align: center;
+}
+
+
+.image{
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+
+}
+.sign{
+    text-align: center;
+}
+
+
+
+
+#map{
+    border: 10px solid #000000;
+    border-radius: 15px;
+    width: 800px;
+    height:  500px;
+
+}
+

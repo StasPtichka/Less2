@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Занятие №2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modalWindow.css">
+</head>
+<script src="Script.js"></script>
+
+<body>
+
+<h1 class="lessH1">Lesson 2...</h1>
+
+<p class="image">
+    <img   src="HLM.jpg" id="map" >
+</p>
+<p class="sign">
+    <a id="signFont" href="#openModal">Name? What is my name? </a>
+</p>
+
+
+
+<div id="openModal" class="modalDialog">
+    <div>
+        <a href="#close" title="Закрыть" class="close">X</a>
+        <h2 id="message">Rename sign? Are you sure?</h2>
+        <button id="butt" class="buttonRename" onclick="renameFunction()">Rename</button>
+
+        <input class="inputNewName" id="otherThing" type="text">
+    </div>
+</div>
+
+
+</body>
+</html>
